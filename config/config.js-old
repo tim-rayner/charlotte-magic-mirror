@@ -33,10 +33,6 @@ let config = {
     //   }
     // },
     {
-      module: "clock",
-      position: "top_left"
-    },
-    {
       module: "MMM-Screencast",
       position: "bottom_right", // placeholder only
       config: {
@@ -67,7 +63,7 @@ let config = {
     },
     {
       module: "MMM-Moon",
-      position: "bottom_right",
+      position: "top_left",
       config: {
         //TO GET YOUR app_id AND app_secret, VISIT AstronomyAPI AND CREATE AN APPLICATION.
         appId: "2e357e2e-2dc5-426b-bfc3-bd6e441e82e9",
@@ -76,6 +72,13 @@ let config = {
         lat: 52.641479069213354,
         lon: 1.3004873711647678,
         timezone: "Europe/London"
+      }
+    },
+    {
+      module: "MMM-WeatherBackground",
+      // don't assign position.
+      config: {
+        clientID: "YOUR_UNSPLASH_ACCESS_KEY"
       }
     }
   ]

@@ -1,0 +1,13 @@
+/* Custom CSS for Charlotte's Magic Mirror */
+
+/* Control background image brightness for MMM-WeatherBackground */
+.WTHBGR {
+  filter: brightness(0.3);
+}
+
+/* You can adjust the brightness value (0.0 to 1.0) to suit your needs:
+   - 0.3 = 30% brightness (darker, better for text readability)
+   - 0.5 = 50% brightness (medium)
+   - 0.7 = 70% brightness (brighter)
+   - 1.0 = 100% brightness (original brightness)
+*/
