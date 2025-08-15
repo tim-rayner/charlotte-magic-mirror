@@ -5,7 +5,10 @@ let config = {
   language: "en",
   timeFormat: 24,
   units: "metric",
-
+  electronOptions: {
+    fullscreen: true,
+    resizable: false
+  },
   modules: [
     {
       module: "compliments",
