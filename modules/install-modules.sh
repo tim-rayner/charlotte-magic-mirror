@@ -44,6 +44,7 @@ install_module "https://github.com/BigBot89/MMM-AccuWeatherForecastDeluxe.git" "
 install_module "https://github.com/EnderFlop/MMM-Moon.git" "MMM-Moon"
 install_module "https://github.com/kevinatown/MMM-Screencast.git" "MMM-Screencast"
 install_module "https://github.com/BrianHepler/MMM-WeatherBackground.git" "MMM-WeatherBackground"
+install_module "https://github.com/shbatm/MMM-Carousel.git" "MMM-Carousel"
 
 echo ""
 echo "All modules installed successfully!"
