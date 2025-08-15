@@ -33,10 +33,6 @@ let config = {
     //   }
     // },
     {
-      module: "clock",
-      position: "top_left"
-    },
-    {
       module: "MMM-Screencast",
       position: "bottom_right", // placeholder only
       config: {
@@ -67,12 +63,11 @@ let config = {
     },
     {
       module: "MMM-Moon",
-      position: "bottom_right",
+      position: "top_left",
       config: {
         //TO GET YOUR app_id AND app_secret, VISIT AstronomyAPI AND CREATE AN APPLICATION.
         appId: "2e357e2e-2dc5-426b-bfc3-bd6e441e82e9",
-        appSecret:
-          "d179feb5e367f7f41420d7fe111f3f073d7bd84babf33aee5c28aa6e0025416aa4a756a393549d759d375450b5c26ffb7244073eedfbe9de59ddfc161f1ecc65a9423043addbfe011c4485961eb126f002878c45fb40973a22cda5c1ea79c3eb4f91aaa9b897c410edcfb1a95a42b69a",
+        appSecret: "d179feb5e367f7f41420d7fe111f3f073d7bd84babf33aee5c28aa6e0025416aa4a756a393549d759d375450b5c26ffb7244073eedfbe9de59ddfc161f1ecc65a9423043addbfe011c4485961eb126f002878c45fb40973a22cda5c1ea79c3eb4f91aaa9b897c410edcfb1a95a42b69a",
         lat: 52.641479069213354,
         lon: 1.3004873711647678,
         timezone: "Europe/London"
