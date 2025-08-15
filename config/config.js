@@ -89,22 +89,6 @@ let config = {
         animationSpeed: 2000,
         showDescription: true
       }
-    },
-    {
-      module: "MMM-Carousel",
-      position: "bottom_bar",
-      config: {
-        transitionInterval: 0, // disables automatic rotation
-        showPageIndicators: true,
-        showPageControls: true,
-        ignoreModules: ["clock", "alert"],
-        mode: "slides",
-        slides: {
-          main: ["compliments", "MMM-AccuWeatherForecastDeluxe", "newsfeed"],
-          "Slide 2": ["newsfeed", "MMM-AccuWeatherForecastDeluxe", "MMM-Moon"],
-          "Slide 3": ["MMM-AccuWeatherForecastDeluxe"]
-        }
-      }
     }
   ]
 };
