@@ -4,12 +4,12 @@ Module.register("compliments", {
   // Module config defaults.
   defaults: {
     compliments: {
-      anytime: ["Jheez, look at you 😻"],
+      anytime: ["Jheez, look at you"],
       morning: [
         "Good morning, gorgeous",
         "Enjoy your day!",
         "How was your sleep?",
-        "Ayyup Duck 🦆"
+        "Ayyup Duck"
       ],
       afternoon: [
         "Ayyup, beautiful!",
@@ -17,12 +17,12 @@ Module.register("compliments", {
         "Looking good today!"
       ],
       evening: [
-        "Wow, I'm so lucky to be your mirror 🤭",
+        "Wow, I'm so lucky to be your mirror",
         "Hello Jackie, You look nice!",
-        "Woah... 🤭"
+        "Woah... "
       ],
       "....-01-01": ["Happy new year!"],
-      "....-01-10": ["Happy birthday sweetheart🎉"],
+      "....-01-10": ["Happy birthday sweetheart"],
       "....-07-12": ["It's your boyfriends birthday"]
     },
     updateInterval: 30000,
