@@ -1,0 +1,60 @@
+{
+  "name": "mmm-carousel",
+  "version": "0.6.1",
+  "description": "Displays a single MagicMirror² module at a time or in groups of slides, rotating through the list of configured modules in a carousel-like fashion.",
+  "keywords": [
+    "magic",
+    "mirror",
+    "carousel",
+    "navigation",
+    "move",
+    "resize modules",
+    "slides",
+    "tabs",
+    "pages"
+  ],
+  "homepage": "https://github.com/shbatm/MMM-Carousel/#readme",
+  "bugs": {
+    "url": "https://github.com/shbatm/MMM-Carousel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shbatm/MMM-Carousel.git"
+  },
+  "license": "MIT",
+  "author": "Barnaby Colby (https://github.com/barnabycolby/)",
+  "contributors": [
+    {
+      "name": "shbatm",
+      "url": "https://github.com/shbatm/"
+    }
+  ],
+  "main": "MMM-Carousel.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint && prettier --check .",
+    "lint:fix": "eslint --fix && prettier --write .",
+    "prepare": "[ -f node_modules/.bin/husky ] && husky || echo husky is not installed.",
+    "test": "node --run lint && node --run test:spelling",
+    "test:spelling": "cspell . .github"
+  },
+  "lint-staged": {
+    "*": [
+      "eslint --fix",
+      "prettier --write --ignore-unknown"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.10.0",
+    "@eslint/js": "^9.31.0",
+    "@eslint/markdown": "^7.0.0",
+    "@stylistic/eslint-plugin": "^5.1.0",
+    "cspell": "^9.1.5",
+    "eslint": "^9.31.0",
+    "eslint-plugin-import-x": "^4.16.1",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.2"
+  }
+}
