@@ -6,6 +6,14 @@ let config = {
   timeFormat: 24,
   units: "metric",
 
+  // Portrait orientation settings
+  electronOptions: {
+    width: 1080,
+    height: 1920,
+    fullscreen: false,
+    resizable: false
+  },
+
   modules: [
     {
       module: "compliments",
