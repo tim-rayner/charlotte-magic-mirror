@@ -1,0 +1,7 @@
+.MMM-Moon img {
+  width: 200px; /* Increase width to make image larger */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure it doesn't overflow container */
+  display: block; /* Remove any inline spacing */
+  margin: 0 auto; /* Center the image */
+}
