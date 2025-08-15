@@ -1,7 +1,7 @@
 let config = {
   address: "0.0.0.0",
   port: 8080,
-  ipWhitelist: [],
+  ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "192.168.1.0/24"],
   language: "en",
   timeFormat: 24,
   units: "metric",
@@ -91,6 +91,24 @@ let config = {
         reloadInterval: 300000, // 5 minutes
         animationSpeed: 2000,
         showDescription: true
+      }
+    },
+    {
+      module: "MMM-Remote-Control",
+      // uncomment the following line to show the URL of the remote control on the mirror
+      // position: 'bottom_left',
+      // you can hide this module afterwards from the remote control itself
+      config: {
+        customCommand: {}, // Optional, See "Using Custom Commands" below
+        showModuleApiMenu: true, // Optional, Enable the Module Controls menu
+        secureEndpoints: true, // Optional, See API/README.md
+        // uncomment any of the lines below if you're gonna use it
+        // customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
+        // apiKey: "", // Optional, See API/README.md for details
+        // classes: {} // Optional, See "Custom Classes" below
+        address: "0.0.0.0",
+        port: 8080,
+        ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "192.168.1.0/24"]
       }
     }
   ]
